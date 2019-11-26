@@ -1,0 +1,60 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body, html{
+    overflow-x: hidden;
+}
+
+body{
+    background-image: url("../images/fundo.png");
+    background-size: cover;
+}
+
+.mainBody{
+    -webkit-box-shadow: 0px 11px 13px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 11px 13px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 11px 13px 0px rgba(0,0,0,0.75);
+    background-color: white;
+    padding-bottom: 3%;
+}
+
+.navbar a{
+    color: white;
+    border-bottom: 1px solid transparent;
+    transition: 0.7s;
+}
+
+.navbar a.nav-link:hover{
+    border-bottom: 1px solid white;
+}
+
+.navbar li.active{
+    background-color: #b48b86;
+}
+
+.jumbotron img{
+    height: 150px;
+}
+
+.infoCard{
+    background-color: white;
+}
+
+.toHide{
+    display: none;
+}
+
+.fixedButton{
+    position: fixed;
+    right: 0px;
+    border-radius: 15%;
+}
+
+#btnToTop{
+    bottom: 100px;
+}
+
+.zeroPadding{
+    padding: 0 !important;
+}
